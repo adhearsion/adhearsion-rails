@@ -25,9 +25,9 @@ Configuration
 In your Adhearsion app configuration file, add the following values:
 
 ```ruby
-Adhearsion.config do |config|
-  config.ahn_rails.path = "/path/to/your/rails/application"
-  config.ahn_rails.environment = :production # :development, :test or any other self defined Rails environment are also valid
+Adhearsion.config[:ahn_rails] do |config|
+  config.path = "/path/to/your/rails/application"
+  config.environment = :production # :development, :test or any other self defined Rails environment are also valid
 end
 ```
 
