@@ -1,4 +1,4 @@
-require 'ahn_rails'
+require 'adhearsion/rails'
 
 Adhearsion::Logging.silence!
 
