@@ -1,7 +1,7 @@
-ahn-rails
+adhearsion-rails
 =========
 
-ahn-rails is an Adhearsion Plugin providing Rails configuration and initialization.
+adhearsion-rails is an Adhearsion Plugin providing Rails configuration and initialization.
 
 Features
 --------
@@ -17,7 +17,7 @@ Requirements
 Install
 -------
 
-Add `ahn-rails` to your Adhearsion app's Gemfile.
+Add `adhearsion-rails` to your Adhearsion app's Gemfile.
 
 Configuration
 -------------
@@ -25,7 +25,7 @@ Configuration
 In your Adhearsion app configuration file, add the following values:
 
 ```ruby
-Adhearsion.config[:ahn_rails] do |config|
+Adhearsion.config[:adhearsion_rails] do |config|
   config.path = "/path/to/your/rails/application"
   config.environment = :production # :development, :test or any other self defined Rails environment are also valid
 end
@@ -38,9 +38,9 @@ Original author: [Juan de Bravo](https://github.com/juandebravo)
 
 Links
 -----
-* [Source](https://github.com/adhearsion/ahn-rails)
-* [Documentation](http://rdoc.info/github/adhearsion/ahn-rails/master/frames)
-* [Bug Tracker](https://github.com/adhearsion/ahn-rails/issues)
+* [Source](https://github.com/adhearsion/adhearsion-rails)
+* [Documentation](http://rdoc.info/github/adhearsion/adhearsion-rails/master/frames)
+* [Bug Tracker](https://github.com/adhearsion/adhearsion-rails/issues)
 
 Note on Patches/Pull Requests
 -----------------------------
@@ -55,4 +55,4 @@ Note on Patches/Pull Requests
 Copyright
 ---------
 
-Check [License file](https://github.com/adhearsion/ahn-rails/blob/master/LICENSE)
+Check [License file](https://github.com/adhearsion/adhearsion-rails/blob/master/LICENSE)
