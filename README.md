@@ -55,4 +55,5 @@ Note on Patches/Pull Requests
 Copyright
 ---------
 
-Check [License file](https://github.com/adhearsion/adhearsion-rails/blob/master/LICENSE)
+Copyright (C) 2012 Adhearsion Foundation Inc.
+Released under the MIT License - Check [License file](https://github.com/adhearsion/adhearsion-rails/blob/master/LICENSE)
