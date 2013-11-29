@@ -1,6 +1,8 @@
 adhearsion-rails
 =========
 
+*NOTE*: Do not use this plugin. See http://adhearsion.com/docs/best-practices/rails
+
 adhearsion-rails is an Adhearsion Plugin providing Rails configuration and initialization.
 
 Features
